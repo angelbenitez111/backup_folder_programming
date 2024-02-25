@@ -1,0 +1,208 @@
+/*select id*/
+#title {
+    color: tomato;
+}
+
+p.especial {
+    color:aquamarine;
+}
+
+/*select class*/
+p.text {
+    color: slateblue;
+}
+
+div p {
+    color:mediumaquamarine;
+}
+
+div h2, div h3 {
+    color:brown;
+}
+
+* {
+    font-size: 24px;
+}
+
+/*exagesimal
+.color {
+    color: #ff0000
+}
+*/
+
+/*rgb
+.color {
+    color: rgb(0, 255, 255)
+}
+*/
+
+.color {
+   /*  border: 4px black solid; */
+    /*
+    dotted
+    dashed
+    solid
+    double
+    
+    groove
+    inset
+    ridge
+    ounset
+
+    none
+    hidden
+    */
+    border-style: solid;
+    border-color: blue;
+    border-radius: 5px;
+    border-width: 2rem;
+}
+
+#backgroud {
+    background-color: rgba(255, 0, 0);
+    /*opacity: 0.3;*/
+    height: 200px;
+    /* **background-image: url("img/miamorcito.jpg"); */
+    background: red url(img/miamorcito.jpg) repeat-y center bottom / 100px 100px;
+    /*background-size: 100px 100px;*/
+    /*
+    auto
+    cover (favorite)
+    contain
+    */
+    /* **background-repeat: repeat-y; */
+    /* **background-position: center top; */
+    /*
+    left    center
+    right   top
+    center  bottom
+    */
+}
+
+.margin {
+    background-color: chocolate;
+    margin: 15px 20px 25px 30px;
+    /* top, right, bottom, left */
+    /* top, right, bottom */
+    /* y-axis, x-axis */
+    /* all */
+    padding: 30px 25px 20px 15px;
+    border: solid 1px black;
+    overflow: visible;
+    /* 
+    hidden
+    scroll
+    */
+    outline: 1px solid red;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    /* center, right, justify */
+    text-decoration: line-through;
+    text-shadow: 3px 5px 5PX blueviolet
+    
+}
+/* not visited */
+a:link {
+    color: blueviolet
+}
+/* visited */
+a:visited {
+    color: gray;
+}
+a:hover {
+    color: yellow
+}
+a:active{
+    color: red
+}
+/* 1° link | 2° visited | 3° hover | 4° active */
+
+ul {
+    background-color: aqua;
+    list-style-type: none;
+    padding-left: 0;
+    /* list-style-position: inside; */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: solid 1px #eee;
+    padding: 5px;
+}
+
+th {
+    background-color: tomato;
+    color: white;
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background-color: #eee;
+}
+
+tr:hover {
+    background-color: #aaa;
+    cursor: pointer
+}
+
+span{
+    display: block;
+    /* display: none; */
+    /* visibility: hidden; */
+    max-width: 600px;
+    background-color: red;
+}
+
+.inline {
+    display: inline;
+}
+/* tags that have "display inline" by default are span, a, img*/
+
+#position {
+    position: sticky;
+    /* static, relative, fixed, sticky, absolute*/
+    left: 10px;
+    /* top: 20px; */
+    /* static, relative, */
+}
+
+.left {
+    float: left;
+    height: 200px;
+    margin: 15px;
+}
+
+.right {
+    float:right;
+}
+
+.container {
+    height: 200px ;
+}
+
+.column {
+    margin: 0;
+    padding: 10px 0px;
+    width: 33.3%;
+}
+
+.inline-block {
+    display: inline-block;
+    height: 55px;
+    background-color: aquamarine;
+}
+
+.center {
+    padding:  50px 0;
+    text-align: center;
+    width: 400px;
+    margin: 0 auto;
+    background-color: aqua;
+}

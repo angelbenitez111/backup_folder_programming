@@ -1,0 +1,1 @@
+print(input("por fávor ingrese su nombre:"))

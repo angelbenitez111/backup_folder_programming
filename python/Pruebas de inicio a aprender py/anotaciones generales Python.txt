@@ -1,0 +1,49 @@
+print:
+  la declaracion "print" se utiliza para desplegar lineas de texto (las cuales tambien pueden ser varias)
+  Multiplicaciones y diviciones.
+
+input
+  para recibir entradas puede utlizar la funcion "input".
+  la funcion le pide al usuario una entrada y devuelve lo que introduscan como una cadena.
+
+del
+  se puede utilizar la sentencia "del" para eliminar una variable.
+------------------------------------------------------------------------------------------------------------
+operaciones aritmeticas
++ : suma
+- : resta
+* : multiplicacion
+/ : divicion
+% : modulo
+** : potenciacion
+-------------------------------------------------------------------------------------------------------------
+signo de comparacion o equivalencia
+  ==
+signo de asignacion
+  =
+operador de desigualdad
+  !=
+-------------------------------------------------------------------------------------------------------------
+
+>  : mayor
+<  : menor
+<= : menor o igual
+>= : mayor o igual
+-------------------------------------------------------------------------------------------------------------
+
+Funciones de conbercion
+  int = enteros
+  float= flotantes
+  str = cadenas
+
+Operadores booleanos
+  and
+   El operador and recibe dos argumentos y se evalua como True si, y solo si, ambos argumentos 
+   son True. De lo contrario, se evalua como falce.
+  or
+   El operador or recibe os argumentos. se evalua  como True si alguno (o ambos) argumenos son
+   True y False si ambos argumentos son false.
+  not
+   not solo recibe un aegumento y lo invierte de not True es False, y de not False se comvierte 
+   en True.
+
