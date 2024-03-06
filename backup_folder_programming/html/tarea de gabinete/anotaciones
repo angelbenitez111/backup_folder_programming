@@ -1,0 +1,25 @@
+Comentarios: <!--Aqui va tu comentario -->
+Linea horizontal:<hr />
+parrafo= <p> / </p>
+salto de parrafo= br /
+Formato De Texto.
+Texto Negritas= <b> / </b>
+Texto Cursiva= <i> / </i>
+Texto Subrayado= <u> / </u>
+Texto Pequeño= <small> / </small>
+Texto Reforzado= <strong> / </strong>
+Texto subíndice= <sub> / </sub>
+Texto superíndice= <sup> / </sup>
+Texto insertado= <ins> / </ins>
+Texto borrado= <del> / </del>
+Encabezados html.
+Encabezado 1:<h1> / </h1>
+Encabezado 2:<h2> / </h2>
+Encabezado 3:<h3> / </h3>
+Encabezado 4:<h4> / </h4>
+Encabezado 5:<h5> / </h5>
+Encabezado 6:<h6> / </h6>
+Poner formato a un Texto
+<font size=4 fese= "Arial" color= "blue">  </font>
+Anchor <a>
+

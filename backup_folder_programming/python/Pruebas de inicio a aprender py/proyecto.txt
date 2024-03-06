@@ -1,0 +1,36 @@
+how much do you like cheese?
+
+puntuacion 0
+
+Question 1: what do you do see a cheese boart?
+A- I run away
+B- I try a cheese or even several
+c- I can not avoid devour her
+
+0
+5
+10
+
+Question 2: How do you like the burger?
+A- without cheese
+B- with cheese
+C- With breat and cheese
+
+0
+5
+10
+
+Question 3: Are you lactose intolerant?
+A- Yes
+B- Sometimes
+C- No
+
+0
+5
+10
+
+0 you don't like cheese
+15 you like cheese
+30 you love cheese
+
+

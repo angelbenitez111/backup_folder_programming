@@ -1,0 +1,33 @@
+Funciones utlizadas para combertir.
+  int= enteros
+  float= Flotantes
+  str= Cadenas
+ Print.
+  la declaracion "print" se utiliza para desplegar lineas de texto (las cuales tambien pueden ser varias)
+  Multiplicaciones y diviciones.
+ Input
+  para recibir entradas puede utlizar la funcion "input".
+  la funcion le pide al usuario una entrada y devuelve lo que introduscan como una cadena.
+ int
+   se utiliza para hacer uso de la combersion de tipos.ej: "2" + "3"= 23 al contrario de int("5") + int ("6")= 11
+  para las multiplicaciones utiliza "*"(asterisco)  y para las diviciones una "/"(barra oblicua)
+  exponenciacion.
+ Del
+  se puede utilizar la sentencia "del" para eliminar una variable.
+  esta operacion es realizada utilizando "**"(dos asterisco).
+  Coeficiente o residuo.
+La divicion entera es hecha utilizando "//" (dos barras oblicuas).
+El operador de modulo es hecho con "%" (simbolo de porcentaje).
+Cadenas de texto
+  Si quieres utilizar texto en python debes utilizar una cadena.
+  una cadena es creada a escribir un texto entre dos comillas ("hola mundo")
+  caracteres que no puede ser utilizados utilizas "\"
+  para saltos de linea "\n" o de forma más directa utliza tres pares de comillas al inicio y al final de 
+  un texto y los saltos se crearan ()
+entrada
+  puedes utilizar la funcion "print" para generar salidas. esto visualiza en la pantalla una represnetacion
+  textual de algo.
+Nombres de variables
+Al momento de poner nombre a las variables se aplican unas cuantas restricciones al respecto. los unicos caracteres
+permitidos son letras,  numeros, y guiones bajos. Tambien no pueden empezar con numeros. No seguir esto lleva a un 
+error.

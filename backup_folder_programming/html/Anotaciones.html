@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>my first page</title>
+    <style>
+        table,td, th {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+    <!--this is a comment-->
+    <!--This is a titles-->
+    <h1>Title 1</h1>
+    <h2>Title 2</h2>
+    <h3>Title 3</h3>
+    <h4>Title 4</h4>
+    <h5>Title 5</h5>
+    <h6>Title 6</h6>
+    <!--This is a line separator-->
+    <hr>
+    <p>This is a paragraph</p>
+    <!--serves to referents a text or tag within others tags -->
+    <span></span>
+    <!--this is a line break-->
+    <br>
+    <!--used to create a hyperlink to another page-->
+    <!--target="_blank" used to create new tab-->
+    <a target="_blank" href="https://www.google.com/">go to google</a>
+    <!--is not ideal \ height="600" width="400"-->
+    <img src="img/miamor.jpg" width="400" alt="foto de mi amorcito"/>
+
+
+    <form>
+        <label for="name">Name</label>
+        <!--name is key-->
+        <input value="default value" type="" id="name" name="name" placeholder="Name"/>
+        <!--type="text"
+            type="number"
+            type="email"
+            type="password"
+            type="file"
+            type="submit"
+            **type="radio"
+            **type="checkbox"-->
+    </form>
+    <form accion="/formulario" method="POST">
+    <!--method="GET/POST", GET limit 255 chraters-->
+    <br>
+    <label for="comment">Comment</label>
+    <textarea cols="50" rows= "10" id="comment" placeholder="Insert a comment" name="comment" >this is a default value</textarea>
+    <input type="submit">
+    <br>
+    <!--create button-->
+    <button type="button">button</button>
+    <!--type:
+    - button
+    - reset
+    - submit-->
+    </form>
+
+
+    <hr>
+    <!--lists-->
+    <!--ul is unordered list-->
+    <ul>
+        <li>Element 1</li>
+        <li>Element 2</li>
+        <li>Element 3</li>
+    </ul>
+    <!--ol is ordered list-->
+    <ol>
+        <li value="50">Element 1</li>
+        <li>Element 2</li>
+        <li>Element 3</li>
+        <li>
+            <ol>
+                <li style="list-style-type: lower-alpha;">sub element 1</li>
+                <li style="list-style-type: lower-alpha;">sub element 2</li>
+                <li style="list-style-type: lower-alpha;">sub element 3</li>
+            </ol>
+        </li>
+    </ol>
+
+
+    <hr>
+    <table style="width: 500px;">
+        <!--thead: it groups the head content of the table-->
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>hat</td>
+                <td>15.000</td>
+            </tr>
+            <tr>
+                <td>hat dnfsdlfldsahfasnfjkdfasfu</td>
+                <td>15.000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td>Total: 30.000</td>
+        </tfoot>
+    </table>
+</body>
+</html>

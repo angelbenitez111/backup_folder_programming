@@ -1,0 +1,54 @@
+Booleanos
+hay dos valores boleados: "True" (verdadero) y False (falso)
+signos
+  signo de comparacion o equivalencia
+    == (dos signos de igual)
+  signo de asignacion
+    = (un signo de igua)
+  operador de desigualdad
+    !=
+  determinar si un numero (decimal o entero) es mayor que otro.
+    < y >
+  Operadores de mayor o igual y menor o igual son >= y <= son iguales con la excepcion de que 
+   devuelven True cuando se comparan numeros iguales.
+snetencias  
+  sentencia if
+   puedes utilizar sentencia if para para ejecutar  un codigo si cierta condicion se complue.
+  sentencia else
+   una sentenia else le sigue a una sentencia if y contiene un codigo que es llamado la 
+   sentencia  if, se evalua como False.
+   al igual que las sentencias if, el codigo dentro del bloque dede ser indentado.
+  sentencias elif
+   es un atajo el cual se utiliza cuando se encadena las sentencias if con las sentencias else
+Logica booleana
+  La logica es utilizada para realizar condiciones mas complicadas para las sentencias if que 
+  dependen de mas de una condicion.
+  los operadores booleanos son:
+   and
+   El operador and recibe dos argumentos y se evalua como True si, y solo si, ambos argumentos 
+   son True. De lo contrario, se evalua como falce.
+   or
+   El operador or recibe os argumentos. se evalua  como True si alguno (o ambos) argumenos son
+   True y False si ambos argumentos son false.
+   not
+   not solo recibe un argumento y lo invierte de not True es False, y de not False se comvierte 
+   en True.
+ Bucles while
+   Las sentencias dentro de ella son ejecutadas repetidas veces, siempre y cuando la condicion 
+   se mantenga. En el momento en que sea evaluada como False la siguiente seccion sera ejecutada.
+  sentencias
+    break
+     para finalizar en bucle while prematuramente se puede utilizar la sentencia break
+    continue
+     A diferencia de la sentencia break, continue vuelve al principio del bucle en vez de detenerlo
+ Listas
+   las listas son otro tipo de objeto en python. son utilizadas para almacenar una lista indexada 
+   de objetos.
+   una lista se crea utilizando corchetes con comas separando a los objetos.
+   un cierto objeto en la lista puede ser accedido al utilizar un indice dentro de corchetees
+    in
+     este devuelve true si un elemento esta una o mas veces en una lista y false si no.
+
+    
+
+  

@@ -1,0 +1,1 @@
+SELECT * FROM persona ORDER BY id_persona
