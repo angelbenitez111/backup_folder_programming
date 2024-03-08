@@ -44,19 +44,46 @@ class PersonaDao:
 
     @classmethod
     def actualizar(cls, persona):
-        pass
+        with Conexion.obtenerConexion() as conexion:
+            with Conexion.obtenerCursor() as cursor:
+                valores = (persona.nombre, persona.apellido, persona.email, persona.id_persona)
+                cursor.execute(cls._ACTUALIZAR, valores)
+                log.debug(f"Persona actualizada: {persona}")
+                # Devolvemos los valores insertados (cantidad)
+                return cursor.rowcount
 
     @classmethod
     def eliminar(cls, persona):
-        pass
+        with Conexion.obtenerConexion():
+            with Conexion.obtenerCursor() as cursor:
+                valores = (persona.id_persona,)
+                cursor.execute(cls._ELIMINAR, valores)
+                log.debug(f"Persona actualizada: {persona}")
+                # Devolvemos los valores insertados (cantidad)
+                return cursor.rowcount
 
 if __name__ == "__main__":
-    # Insertamos un objeto
-    persona1 = Persona(nombre='Pedro', apellido='Peralta', email='pperalta@mail.com')
-    personas_insertadas = PersonaDao.insertar(persona1)
-    log.debug(f"Personas insertadas: {personas_insertadas}")
+   # Eliminar un registro
+    persona2= Persona(id_persona=2)
+    persona_eliminada = PersonaDao.eliminar(persona2)
+    log.debug(f"Personas Eliminada: {persona_eliminada}")
 
+    """
+   # Actualizamos un registro
+   persona2= Persona(2, "Prueba", "Prueba apellido", "pp@mail.com")
+   personas_actualizadas = PersonaDao.actualizar(persona2)
+   log.debug(f"Personas actualizadas: {personas_actualizadas}")
+    """
+
+"""
     #Seleccionar objeto
     personas = PersonaDao.seleccionar()
     for persona in personas:
         log.debug(persona)
+"""
+"""
+    # Insertamos un objeto
+    persona1 = Persona(nombre='Angel', apellido='Benitez', email='abenitez@mail.com')
+    personas_insertadas = PersonaDao.insertar(persona1)
+    log.debug(f"Personas insertadas: {personas_insertadas}")
+"""

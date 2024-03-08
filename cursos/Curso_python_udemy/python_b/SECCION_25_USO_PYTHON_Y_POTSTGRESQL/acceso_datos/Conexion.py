@@ -25,6 +25,7 @@ class Conexion:
                 return cls._conexion
             except Exception as e:
                 log.error(f'Ocurrió una excepción al obtener la conexión: {e}')
+                # Termina por completo el programa
                 sys.exit()
         else:
             return cls._conexion
