@@ -5,7 +5,7 @@ class CursorDelPool:
     def __init__(self):
         self._conexion = None
         self._cursor = None
-
+    # Resource manager / context manager
     def __enter__(self):
         log.debug(f'Inicio del método with __enter__')
         self._conexion = Conexion.obtenerConexion()
