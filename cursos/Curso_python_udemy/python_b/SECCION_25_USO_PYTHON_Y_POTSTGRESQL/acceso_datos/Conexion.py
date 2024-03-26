@@ -53,3 +53,5 @@ if __name__ == '__main__':
    conexion3 = Conexion.obtenerConexion()
    conexion4 = Conexion.obtenerConexion()
    conexion5 = Conexion.obtenerConexion()
+   Conexion.liberarConexion(conexion5)
+   conexion6 = Conexion.obtenerConexion()
