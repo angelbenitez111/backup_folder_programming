@@ -7,7 +7,7 @@ class Usuario:
         self._password = password
 
     def __str__(self):
-        return f'\n**Datos de usuario**\n- Id Usuario: {self._id_usuario}\n- Nombre: {self._username}\n- Password: {self. _password}\n'
+        return f'Id Usuario: {self._id_usuario}, Username: {self._username}, Password: {self. _password}'
 
 
     # Metodos get

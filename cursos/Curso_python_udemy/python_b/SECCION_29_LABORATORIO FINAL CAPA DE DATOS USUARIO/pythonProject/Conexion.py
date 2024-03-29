@@ -56,11 +56,3 @@ if __name__ == '__main__':
    conexion5 = Conexion.obtenerConexion()
    Conexion.liberarConexion(conexion5)
    conexion6 = Conexion.obtenerConexion()
-
-
-
-
-
-
-
-

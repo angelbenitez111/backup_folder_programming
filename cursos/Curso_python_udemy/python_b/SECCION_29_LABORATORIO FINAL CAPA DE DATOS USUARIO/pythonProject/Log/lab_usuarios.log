@@ -206,3 +206,664 @@
 09:18:53 PM: DEBUG [CursorDelPool.py:17] se ejecuta método __exit__
 09:18:53 PM: DEBUG [CursorDelPool.py:24] commit de la transaccion
 09:18:53 PM: DEBUG [Conexion.py:44] Regresamos la conexion al pool: <connection object at 0x000001FDEFE09AD0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+09:28:24 PM: DEBUG [logger_base.py:47] Mensaje a nivel debug
+09:28:24 PM: INFO [logger_base.py:48] Mensaje a nivel de info
+09:28:24 PM: WARNING [logger_base.py:49] Mensaje a nivel de warning
+09:28:24 PM: ERROR [logger_base.py:50] Mensaje a nivel de error
+09:28:24 PM: CRITICAL [logger_base.py:51] Mensaje a nivel critico
+09:28:59 PM: DEBUG [logger_base.py:47] Mensaje a nivel debug
+09:28:59 PM: INFO [logger_base.py:48] Mensaje a nivel de info
+09:28:59 PM: WARNING [logger_base.py:49] Mensaje a nivel de warning
+09:28:59 PM: ERROR [logger_base.py:50] Mensaje a nivel de error
+09:28:59 PM: CRITICAL [logger_base.py:51] Mensaje a nivel critico
+09:29:43 PM: DEBUG [logger_base.py:47] Mensaje a nivel debug
+09:29:43 PM: INFO [logger_base.py:48] Mensaje a nivel de info
+09:29:43 PM: WARNING [logger_base.py:49] Mensaje a nivel de warning
+09:29:43 PM: ERROR [logger_base.py:50] Mensaje a nivel de error
+09:29:43 PM: CRITICAL [logger_base.py:51] Mensaje a nivel critico
+09:30:11 PM: DEBUG [logger_base.py:47] Mensaje a nivel debug
+09:30:19 PM: DEBUG [logger_base.py:47] Mensaje a nivel debug
+09:30:19 PM: INFO [logger_base.py:48] Mensaje a nivel de info
+09:30:19 PM: WARNING [logger_base.py:49] Mensaje a nivel de warning
+09:30:19 PM: ERROR [logger_base.py:50] Mensaje a nivel de error
+09:30:19 PM: CRITICAL [logger_base.py:51] Mensaje a nivel critico
+09:30:39 PM: DEBUG
+09:30:39 PM: INFO
+09:30:39 PM: WARNING
+09:30:39 PM: ERROR
+09:30:39 PM: CRITICAL
+09:32:04 PM: DEBUG [logger_base.py:47] Mensaje a nivel debug
+09:32:04 PM: INFO [logger_base.py:48] Mensaje a nivel de info
+09:32:04 PM: WARNING [logger_base.py:49] Mensaje a nivel de warning
+09:32:04 PM: ERROR [logger_base.py:50] Mensaje a nivel de error
+09:32:04 PM: CRITICAL [logger_base.py:51] Mensaje a nivel critico
+09:32:52 PM: INFO [MenuAppUsuario.py:17] 
+Opciones:
+
+1. Listar usuarios
+
+2. Agregar usuario
+
+3. Modificar usuario
+
+4. Eliminar usuario
+
+5. Salir
+
+Escribe tu opción (1-5): 
+
+09:33:11 PM: INFO [MenuAppUsuario.py:17] 
+Opciones:
+1. Listar usuarios
+2. Agregar usuario
+3. Modificar usuario
+4. Eliminar usuario
+5. Salir
+Escribe tu opción (1-5): 
+
+09:33:23 PM: INFO [MenuAppUsuario.py:16] 
+Opciones:
+1. Listar usuarios
+2. Agregar usuario
+3. Modificar usuario
+4. Eliminar usuario
+5. Salir
+Escribe tu opción (1-5): 
+09:34:19 PM: DEBUG [Usuario.py:42] 
+**Datos de usuario**
+- Id Usuario: 1
+- Nombre: Pepito
+- Password: None
+
+09:35:19 PM: INFO
+09:35:19 PM: WARNING
+09:35:19 PM: ERROR
+09:35:19 PM: CRITICAL
+09:35:54 PM: DEBUG [logger_base.py:35] Mensaje a nivel debug
+09:35:54 PM: INFO [logger_base.py:36] Mensaje a nivel de info
+09:35:54 PM: WARNING [logger_base.py:37] Mensaje a nivel de warning
+09:35:54 PM: ERROR [logger_base.py:38] Mensaje a nivel de error
+09:35:54 PM: CRITICAL [logger_base.py:39] Mensaje a nivel critico
+09:50:11 PM: INFO [MenuAppUsuario.py:21] Invalid response
+09:50:50 PM: INFO [MenuAppUsuario.py:21] Invalid response
+09:50:53 PM: INFO [MenuAppUsuario.py:21] Invalid response
+09:51:15 PM: DEBUG [CursorDelPool.py:11] Inicio del método with __enter__
+09:51:15 PM: DEBUG [Conexion.py:26] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001838F9820F0>
+09:51:15 PM: DEBUG [Conexion.py:38] Conexion obtenida del pull: <connection object at 0x000001838F9199C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+09:51:15 PM: DEBUG [CursorDelPool.py:17] se ejecuta método __exit__
+09:51:15 PM: DEBUG [CursorDelPool.py:24] commit de la transaccion
+09:51:15 PM: DEBUG [Conexion.py:44] Regresamos la conexion al pool: <connection object at 0x000001838F9199C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+09:51:15 PM: INFO [MenuAppUsuario.py:18] [<Usuario.Usuario object at 0x000001838F99D160>, <Usuario.Usuario object at 0x000001838F99D220>, <Usuario.Usuario object at 0x000001838F99D1F0>]
+09:53:42 PM: INFO [MenuAppUsuario.py:19] ValueError
+09:53:42 PM: INFO [MenuAppUsuario.py:24] Invalid response
+09:54:34 PM: INFO [MenuAppUsuario.py:24] 
+ValueError
+
+09:55:29 PM: INFO [MenuAppUsuario.py:24] 
+ValueError
+09:55:47 PM: INFO [MenuAppUsuario.py:24] 
+ValueError
+09:56:29 PM: INFO [MenuAppUsuario.py:23] ValueError 
+09:58:31 PM: INFO [MenuAppUsuario.py:19] ValueError 
+09:58:50 PM: DEBUG [CursorDelPool.py:11] Inicio del método with __enter__ 
+09:58:50 PM: DEBUG [Conexion.py:26] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001C1037B1C70> 
+09:58:50 PM: DEBUG [Conexion.py:38] Conexion obtenida del pull: <connection object at 0x000001C1053699C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+09:58:50 PM: DEBUG [CursorDelPool.py:17] se ejecuta método __exit__ 
+09:58:50 PM: DEBUG [CursorDelPool.py:24] commit de la transaccion 
+09:58:50 PM: DEBUG [Conexion.py:44] Regresamos la conexion al pool: <connection object at 0x000001C1053699C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+09:58:50 PM: INFO [MenuAppUsuario.py:23] [<Usuario.Usuario object at 0x000001C1053F1250>, <Usuario.Usuario object at 0x000001C1053F12B0>, <Usuario.Usuario object at 0x000001C1053F12E0>] 
+10:19:58 PM: DEBUG [Conexion.py:26] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000022FD95ED7C0> 
+10:19:58 PM: DEBUG [Conexion.py:38] Conexion obtenida del pull: <connection object at 0x0000022FD95E98B0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+10:19:58 PM: DEBUG [Conexion.py:38] Conexion obtenida del pull: <connection object at 0x0000022FD95E99C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+10:19:58 PM: DEBUG [Conexion.py:38] Conexion obtenida del pull: <connection object at 0x0000022FD95E9AD0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+10:19:58 PM: DEBUG [Conexion.py:38] Conexion obtenida del pull: <connection object at 0x0000022FD95E9BE0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+10:19:58 PM: DEBUG [Conexion.py:38] Conexion obtenida del pull: <connection object at 0x0000022FD95E9CF0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+10:19:58 PM: DEBUG [Conexion.py:44] Regresamos la conexion al pool: <connection object at 0x0000022FD95E9CF0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+10:19:58 PM: DEBUG [Conexion.py:38] Conexion obtenida del pull: <connection object at 0x0000022FD95E9CF0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+10:20:00 PM: DEBUG [CursorDelPool.py:11] Inicio del método with __enter__ 
+10:20:00 PM: DEBUG [Conexion.py:26] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x00000219273683E0> 
+10:20:00 PM: DEBUG [Conexion.py:38] Conexion obtenida del pull: <connection object at 0x0000021928F0D9C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+10:20:00 PM: DEBUG [CursorDelPool.py:32] Dentro del with 
+10:20:00 PM: DEBUG [CursorDelPool.py:35] [(1, 'Pedro', 'Peralta', 'pperalta@mail.com'), (3, 'Angel', 'Benitez', 'abenitez@mail.com'), (4, 'Pedro', 'Garcia', 'pgarcia@hotmail.com'), (5, 'Pedro', 'Garcia', 'pgarcia@hotmail.com'), (6, 'Pedro', 'Garcia', 'pgarcia@hotmail.com'), (7, 'Pedro', 'Garcia', 'pgarcia@hotmail.com')] 
+10:20:00 PM: DEBUG [CursorDelPool.py:17] se ejecuta método __exit__ 
+10:20:00 PM: DEBUG [CursorDelPool.py:24] commit de la transaccion 
+10:20:00 PM: DEBUG [Conexion.py:44] Regresamos la conexion al pool: <connection object at 0x0000021928F0D9C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+10:20:03 PM: DEBUG [logger_base.py:35] Mensaje a nivel debug 
+10:20:03 PM: INFO [logger_base.py:36] Mensaje a nivel de info 
+10:20:03 PM: WARNING [logger_base.py:37] Mensaje a nivel de warning 
+10:20:03 PM: ERROR [logger_base.py:38] Mensaje a nivel de error 
+10:20:03 PM: CRITICAL [logger_base.py:39] Mensaje a nivel critico 
+10:26:56 PM: DEBUG [CursorDelPool.py:11] Inicio del método with __enter__ 
+10:26:56 PM: DEBUG [Conexion.py:26] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000014E9F715EE0> 
+10:26:56 PM: DEBUG [Conexion.py:38] Conexion obtenida del pull: <connection object at 0x0000014EA13299C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+10:26:56 PM: DEBUG [CursorDelPool.py:17] se ejecuta método __exit__ 
+10:26:56 PM: DEBUG [CursorDelPool.py:24] commit de la transaccion 
+10:26:56 PM: DEBUG [Conexion.py:44] Regresamos la conexion al pool: <connection object at 0x0000014EA13299C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+10:26:56 PM: INFO [MenuAppUsuario.py:23] [<Usuario.Usuario object at 0x0000014EA13B1160>, <Usuario.Usuario object at 0x0000014E9F44BE30>, <Usuario.Usuario object at 0x0000014EA13B11C0>] 
+10:30:48 PM: DEBUG [CursorDelPool.py:11] Inicio del método with __enter__ 
+10:30:48 PM: DEBUG [Conexion.py:26] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x0000021ED83009E0> 
+10:30:48 PM: DEBUG [Conexion.py:38] Conexion obtenida del pull: <connection object at 0x0000021ED82999C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+10:30:48 PM: DEBUG [CursorDelPool.py:17] se ejecuta método __exit__ 
+10:30:48 PM: DEBUG [CursorDelPool.py:24] commit de la transaccion 
+10:30:48 PM: DEBUG [Conexion.py:44] Regresamos la conexion al pool: <connection object at 0x0000021ED82999C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+10:30:48 PM: INFO [MenuAppUsuario.py:23] [<Usuario.Usuario object at 0x0000021ED83210D0>, <Usuario.Usuario object at 0x0000021ED83211C0>, <Usuario.Usuario object at 0x0000021ED8321190>] 
+10:31:41 PM: DEBUG [CursorDelPool.py:11] Inicio del método with __enter__ 
+10:31:41 PM: DEBUG [Conexion.py:26] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001AD99E59730> 
+10:31:41 PM: DEBUG [Conexion.py:38] Conexion obtenida del pull: <connection object at 0x000001AD99E699C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+10:31:41 PM: DEBUG [CursorDelPool.py:17] se ejecuta método __exit__ 
+10:31:41 PM: DEBUG [CursorDelPool.py:24] commit de la transaccion 
+10:31:41 PM: DEBUG [Conexion.py:44] Regresamos la conexion al pool: <connection object at 0x000001AD99E699C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+10:31:41 PM: INFO [MenuAppUsuario.py:23] [<Usuario.Usuario object at 0x000001AD99EF11F0>, <Usuario.Usuario object at 0x000001AD99EF1250>, <Usuario.Usuario object at 0x000001AD99EF1280>] 
+10:36:13 PM: DEBUG [CursorDelPool.py:11] Inicio del método with __enter__ 
+10:36:13 PM: DEBUG [Conexion.py:26] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000001AE9B818980> 
+10:36:13 PM: DEBUG [Conexion.py:38] Conexion obtenida del pull: <connection object at 0x000001AE9D2999C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+10:36:13 PM: DEBUG [CursorDelPool.py:17] se ejecuta método __exit__ 
+10:36:13 PM: DEBUG [CursorDelPool.py:24] commit de la transaccion 
+10:36:13 PM: DEBUG [Conexion.py:44] Regresamos la conexion al pool: <connection object at 0x000001AE9D2999C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+10:36:13 PM: INFO [MenuAppUsuario.py:24] [<Usuario.Usuario object at 0x000001AE9D31D340>, <Usuario.Usuario object at 0x000001AE9D31D310>, <Usuario.Usuario object at 0x000001AE9D31D370>] 
+10:37:18 PM: DEBUG [CursorDelPool.py:11] Inicio del método with __enter__ 
+10:37:18 PM: DEBUG [Conexion.py:26] Creacion del pool exitosa: <psycopg2.pool.SimpleConnectionPool object at 0x000002A6D80D1160> 
+10:37:18 PM: DEBUG [Conexion.py:38] Conexion obtenida del pull: <connection object at 0x000002A6D80499C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+10:37:18 PM: DEBUG [CursorDelPool.py:17] se ejecuta método __exit__ 
+10:37:18 PM: DEBUG [CursorDelPool.py:24] commit de la transaccion 
+10:37:18 PM: DEBUG [Conexion.py:44] Regresamos la conexion al pool: <connection object at 0x000002A6D80499C0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0> 
+10:37:18 PM: INFO [MenuAppUsuario.py:24] [<Usuario.Usuario object at 0x000002A6D80D11F0>, <Usuario.Usuario object at 0x000002A6D803BE30>, <Usuario.Usuario object at 0x000002A6D80D1190>] 
+10:39:42 PM: INFO [MenuAppUsuario.py:25] [<Usuario.Usuario object at 0x000002997D5D8D40>, <Usuario.Usuario object at 0x000002997D5D8DA0>, <Usuario.Usuario object at 0x000002997D5D8DD0>] 
+10:40:06 PM: INFO [MenuAppUsuario.py:25] [<Usuario.Usuario object at 0x000001FCFF05D250>, <Usuario.Usuario object at 0x000001FCFF05D2B0>, <Usuario.Usuario object at 0x000001FCFF05D2E0>] 
+10:49:21 PM: ERROR [CursorDelPool.py:20] Ocurrio una excepción, se hace rollback:  <class 'KeyboardInterrupt'> <traceback object at 0x000002298BBBAA00> 
+10:53:29 PM: INFO [MenuAppUsuario.py:22] Invalid response 
+10:53:51 PM: INFO [MenuAppUsuario.py:22] Invalid response 
+10:54:58 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 1, Username: Claudio, Password: Claudio
+ 
+10:54:58 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 2, Username: Claudio, Password: Claudio
+ 
+10:54:58 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito
+ 
+10:55:48 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 1, Username: Claudio, Password: Claudio
+ 
+10:55:48 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 2, Username: Claudio, Password: Claudio
+ 
+10:55:48 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito
+ 
+10:56:53 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 1, Username: Claudio, Password: Claudio
+ 
+10:57:16 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 1, Username: Claudio, Password: Claudio 
+10:57:16 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 2, Username: Claudio, Password: Claudio 
+10:57:16 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+10:57:37 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 1, Username: Claudio, Password: Claudio 
+10:57:37 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 2, Username: Claudio, Password: Claudio 
+10:57:37 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+10:57:45 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 1, Username: Claudio, Password: Claudio 
+10:57:45 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 2, Username: Claudio, Password: Claudio 
+10:57:45 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+10:58:37 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 1, Username: Claudio, Password: Claudio 
+10:58:37 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 2, Username: Claudio, Password: Claudio 
+10:58:37 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+11:05:28 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 1, Username: Claudio, Password: Claudio 
+11:05:28 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 2, Username: Claudio, Password: Claudio 
+11:05:28 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+11:05:32 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 1, Username: Claudio, Password: Claudio 
+11:05:32 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 2, Username: Claudio, Password: Claudio 
+11:05:32 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+11:05:34 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 1, Username: Claudio, Password: Claudio 
+11:05:34 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 2, Username: Claudio, Password: Claudio 
+11:05:34 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+11:05:38 PM: INFO [MenuAppUsuario.py:30] Invalid response 
+11:05:42 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 1, Username: Claudio, Password: Claudio 
+11:05:42 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 2, Username: Claudio, Password: Claudio 
+11:05:42 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+11:06:32 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 1, Username: Claudio, Password: Claudio 
+11:06:32 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 2, Username: Claudio, Password: Claudio 
+11:06:32 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+11:06:39 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 1, Username: Claudio, Password: Claudio 
+11:06:39 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 2, Username: Claudio, Password: Claudio 
+11:06:39 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+11:06:58 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 1, Username: Claudio, Password: Claudio 
+11:06:58 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 2, Username: Claudio, Password: Claudio 
+11:06:58 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+11:07:46 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 1, Username: Claudio, Password: Claudio 
+11:07:48 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 2, Username: Claudio, Password: Claudio 
+11:07:50 PM: INFO [MenuAppUsuario.py:28] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+11:31:00 PM: INFO [MenuAppUsuario.py:21] Invalid response 
+11:31:17 PM: INFO [MenuAppUsuario.py:21] Invalid response 
+11:32:16 PM: INFO [MenuAppUsuario.py:21] Invalid response 
+11:32:23 PM: INFO [MenuAppUsuario.py:21] Invalid response 
+11:32:43 PM: INFO [MenuAppUsuario.py:21] Invalid response 
+11:33:17 PM: INFO [MenuAppUsuario.py:21] Invalid response 
+11:33:37 PM: INFO [MenuAppUsuario.py:35] Usuarios insertados: 1 
+11:40:23 PM: INFO [MenuAppUsuario.py:21] Invalid response 
+11:41:55 PM: INFO [MenuAppUsuario.py:44] Usuarios eliminados: 1 
+11:48:03 PM: INFO [MenuAppUsuario.py:21] Invalid response 
+11:48:16 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 1, Username: Claudio, Password: Claudio 
+11:48:16 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 2, Username: Claudio, Password: Claudio 
+11:48:16 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+11:48:16 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+11:48:16 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+11:48:29 PM: INFO [MenuAppUsuario.py:21] Invalid response 
+11:48:32 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 1, Username: Claudio, Password: Claudio 
+11:48:32 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 2, Username: Claudio, Password: Claudio 
+11:48:32 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+11:48:32 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+11:48:32 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+11:49:02 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 1, Username: Claudio, Password: Claudio 
+11:49:02 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 2, Username: Claudio, Password: Claudio 
+11:49:02 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+11:49:02 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+11:49:02 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+11:49:20 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 1, Username: Claudio, Password: Claudio 
+11:49:20 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 2, Username: Claudio, Password: Claudio 
+11:49:20 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+11:49:20 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+11:49:20 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+11:49:49 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 1, Username: Claudio, Password: Claudio 
+11:49:49 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 2, Username: Claudio, Password: Claudio 
+11:49:49 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+11:49:49 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+11:49:49 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+11:50:16 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 1, Username: Claudio, Password: Claudio 
+11:50:16 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 2, Username: Claudio, Password: Claudio 
+11:50:16 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+11:50:16 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+11:50:16 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+11:50:24 PM: INFO [MenuAppUsuario.py:21] Invalid response 
+11:50:31 PM: INFO [MenuAppUsuario.py:21] Invalid response 
+11:50:35 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 1, Username: Claudio, Password: Claudio 
+11:50:35 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 2, Username: Claudio, Password: Claudio 
+11:50:35 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+11:50:35 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+11:50:35 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+11:50:42 PM: INFO [MenuAppUsuario.py:21] Invalid response 
+11:50:49 PM: INFO [MenuAppUsuario.py:21] Invalid response 
+11:50:56 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 1, Username: Claudio, Password: Claudio 
+11:50:56 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 2, Username: Claudio, Password: Claudio 
+11:50:56 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+11:50:56 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+11:50:56 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+11:51:04 PM: INFO [MenuAppUsuario.py:21] Invalid response 
+11:51:07 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 1, Username: Claudio, Password: Claudio 
+11:51:07 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 2, Username: Claudio, Password: Claudio 
+11:51:07 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+11:51:07 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+11:51:07 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+11:51:08 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 1, Username: Claudio, Password: Claudio 
+11:51:08 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 2, Username: Claudio, Password: Claudio 
+11:51:08 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+11:51:08 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+11:51:08 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+11:51:16 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 1, Username: Claudio, Password: Claudio 
+11:51:16 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 2, Username: Claudio, Password: Claudio 
+11:51:16 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+11:51:16 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+11:51:16 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+11:51:18 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 1, Username: Claudio, Password: Claudio 
+11:51:18 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 2, Username: Claudio, Password: Claudio 
+11:51:18 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+11:51:18 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+11:51:18 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+11:52:59 PM: INFO [MenuAppUsuario.py:21] Invalid response 
+11:54:37 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 1, Username: Claudio, Password: Claudio 
+11:54:39 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 2, Username: Claudio, Password: Claudio 
+11:54:41 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+11:54:42 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+11:54:43 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+11:56:51 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 1, Username: Claudio, Password: Claudio 
+11:56:51 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 2, Username: Claudio, Password: Claudio 
+11:56:51 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+11:56:51 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+11:56:51 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+11:56:54 PM: INFO [MenuAppUsuario.py:21] Invalid response 
+11:56:56 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 1, Username: Claudio, Password: Claudio 
+11:56:56 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 2, Username: Claudio, Password: Claudio 
+11:56:56 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+11:56:56 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+11:56:56 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+11:56:57 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 1, Username: Claudio, Password: Claudio 
+11:56:57 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 2, Username: Claudio, Password: Claudio 
+11:56:57 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+11:56:57 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+11:56:57 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+11:57:01 PM: ERROR [CursorDelPool.py:20] Ocurrio una excepción, se hace rollback: 'int' object does not support indexing <class 'TypeError'> <traceback object at 0x000002AD1E236780> 
+11:57:16 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 1, Username: Claudio, Password: Claudio 
+11:57:16 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 2, Username: Claudio, Password: Claudio 
+11:57:16 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+11:57:16 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+11:57:16 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+11:57:20 PM: INFO [MenuAppUsuario.py:21] Invalid response 
+11:57:25 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 1, Username: Claudio, Password: Claudio 
+11:57:25 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 2, Username: Claudio, Password: Claudio 
+11:57:25 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+11:57:25 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+11:57:25 PM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+11:57:29 PM: ERROR [CursorDelPool.py:20] Ocurrio una excepción, se hace rollback: 'int' object does not support indexing <class 'TypeError'> <traceback object at 0x000001D9F2D46780> 
+11:57:57 PM: ERROR [CursorDelPool.py:20] Ocurrio una excepción, se hace rollback: 'int' object does not support indexing <class 'TypeError'> <traceback object at 0x000002348B186780> 
+11:58:33 PM: INFO [MenuAppUsuario.py:52] Usuarios eliminados: 1 
+12:00:23 AM: INFO [MenuAppUsuario.py:21] Invalid response 
+12:00:39 AM: INFO [MenuAppUsuario.py:50] Usuarios eliminados: 1 
+12:00:57 AM: INFO [MenuAppUsuario.py:35] Usuarios insertados: 1 
+12:01:03 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:01:03 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:01:03 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:01:03 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 6, Username: prueba, Password: prueba 
+12:01:10 AM: INFO [MenuAppUsuario.py:21] Invalid response 
+12:04:07 AM: INFO [MenuAppUsuario.py:35] Usuarios insertados: 1 
+12:04:08 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:04:08 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:04:08 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:04:08 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 7, Username: 4984, Password: 9549 
+12:04:13 AM: INFO [MenuAppUsuario.py:21] Invalid response 
+12:04:35 AM: INFO [MenuAppUsuario.py:50] Usuarios eliminados: 1 
+12:05:40 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:05:40 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:05:40 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:05:43 AM: INFO [MenuAppUsuario.py:21] Invalid response 
+12:05:44 AM: INFO [MenuAppUsuario.py:21] Invalid response 
+12:05:45 AM: INFO [MenuAppUsuario.py:21] Invalid response 
+12:05:46 AM: INFO [MenuAppUsuario.py:21] Invalid response 
+12:05:47 AM: INFO [MenuAppUsuario.py:21] Invalid response 
+12:05:47 AM: INFO [MenuAppUsuario.py:21] Invalid response 
+12:05:48 AM: INFO [MenuAppUsuario.py:21] Invalid response 
+12:05:49 AM: INFO [MenuAppUsuario.py:21] Invalid response 
+12:05:54 AM: INFO [MenuAppUsuario.py:21] Invalid response 
+12:06:19 AM: INFO [MenuAppUsuario.py:57] Invalid response 
+12:06:23 AM: INFO [MenuAppUsuario.py:57] Invalid response 
+12:06:27 AM: INFO [MenuAppUsuario.py:21] Invalid 
+12:06:32 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:06:32 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:06:32 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:06:35 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:06:35 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:06:35 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:06:36 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:06:36 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:06:36 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:06:38 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:06:38 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:06:38 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:06:40 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:06:40 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:06:40 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:06:44 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:06:44 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:06:44 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:06:46 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:06:46 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:06:46 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:06:47 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:06:47 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:06:47 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:06:55 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:06:55 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:06:55 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:06:57 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:06:57 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:06:57 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:07:00 AM: INFO [MenuAppUsuario.py:21] Invalid 
+12:07:01 AM: INFO [MenuAppUsuario.py:21] Invalid 
+12:07:03 AM: INFO [MenuAppUsuario.py:21] Invalid 
+12:07:05 AM: INFO [MenuAppUsuario.py:21] Invalid 
+12:07:06 AM: INFO [MenuAppUsuario.py:21] Invalid 
+12:07:07 AM: INFO [MenuAppUsuario.py:21] Invalid 
+12:07:08 AM: INFO [MenuAppUsuario.py:21] Invalid 
+12:07:09 AM: INFO [MenuAppUsuario.py:21] Invalid 
+12:07:09 AM: INFO [MenuAppUsuario.py:21] Invalid 
+12:07:10 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:07:10 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:07:10 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:07:12 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:07:12 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:07:12 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:07:15 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:07:15 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:07:15 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:07:42 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:07:42 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:07:42 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:07:43 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:07:43 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:07:43 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:07:44 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:07:44 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:07:44 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:07:45 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:07:45 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:07:45 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:07:58 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:07:58 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:07:58 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:07:59 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:07:59 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:07:59 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:08:00 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:08:00 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:08:00 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:08:01 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:08:01 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:08:01 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:08:03 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:08:03 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:08:03 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:08:03 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:08:03 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:08:03 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:08:04 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:08:04 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:08:04 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:08:05 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:08:05 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:08:05 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:08:06 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:08:06 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:08:06 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:08:07 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:08:07 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:08:07 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:08:49 AM: INFO [MenuAppUsuario.py:57] Invalid response 
+12:08:53 AM: INFO [MenuAppUsuario.py:57] Invalid response 
+12:08:54 AM: INFO [MenuAppUsuario.py:57] Invalid response 
+12:08:55 AM: INFO [MenuAppUsuario.py:57] Invalid response 
+12:08:56 AM: INFO [MenuAppUsuario.py:57] Invalid response 
+12:08:57 AM: INFO [MenuAppUsuario.py:57] Invalid response 
+12:08:57 AM: INFO [MenuAppUsuario.py:57] Invalid response 
+12:08:58 AM: INFO [MenuAppUsuario.py:57] Invalid response 
+12:08:58 AM: INFO [MenuAppUsuario.py:57] Invalid response 
+12:08:59 AM: INFO [MenuAppUsuario.py:57] Invalid response 
+12:08:59 AM: INFO [MenuAppUsuario.py:57] Invalid response 
+12:09:00 AM: INFO [MenuAppUsuario.py:57] Invalid response 
+12:09:00 AM: INFO [MenuAppUsuario.py:57] Invalid response 
+12:09:29 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:09:29 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:09:29 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:09:43 AM: INFO [MenuAppUsuario.py:35] Usuarios insertados: 1 
+12:09:48 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:09:48 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:09:48 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:09:48 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: pedro, Password: password 
+12:09:49 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:09:49 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:09:49 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:09:49 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: pedro, Password: password 
+12:09:49 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:09:49 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:09:49 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:09:49 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: pedro, Password: password 
+12:09:51 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:09:51 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:09:51 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:09:51 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: pedro, Password: password 
+12:09:52 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:09:52 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:09:52 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:09:52 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: pedro, Password: password 
+12:09:53 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:09:53 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:09:53 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:09:53 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: pedro, Password: password 
+12:09:53 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:09:53 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:09:53 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:09:53 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: pedro, Password: password 
+12:09:54 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:09:54 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:09:54 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:09:54 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: pedro, Password: password 
+12:09:54 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:09:54 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:09:54 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:09:54 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: pedro, Password: password 
+12:09:55 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:09:55 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:09:55 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:09:55 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: pedro, Password: password 
+12:09:55 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:09:55 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:09:55 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:09:55 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: pedro, Password: password 
+12:09:55 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:09:55 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:09:55 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:09:55 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: pedro, Password: password 
+12:09:56 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:09:56 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:09:56 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:09:56 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: pedro, Password: password 
+12:09:56 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:09:56 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:09:56 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:09:56 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: pedro, Password: password 
+12:09:56 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:09:56 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:09:56 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:09:56 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: pedro, Password: password 
+12:09:57 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:09:57 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:09:57 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:09:57 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: pedro, Password: password 
+12:10:00 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:10:00 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:10:00 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:10:00 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: pedro, Password: password 
+12:10:01 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:10:01 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:10:01 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:10:01 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: pedro, Password: password 
+12:10:02 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:10:02 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:10:02 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:10:02 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: pedro, Password: password 
+12:10:02 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:10:02 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:10:02 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:10:02 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: pedro, Password: password 
+12:10:03 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:10:03 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:10:03 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:10:03 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: pedro, Password: password 
+12:10:03 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:10:03 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:10:03 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:10:03 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: pedro, Password: password 
+12:10:04 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:10:04 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:10:04 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:10:04 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: pedro, Password: password 
+12:10:05 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:10:05 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:10:05 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:10:05 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: pedro, Password: password 
+12:10:26 AM: INFO [MenuAppUsuario.py:44] Usuarios actualizados: 1 
+12:10:28 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:10:28 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345 
+12:10:28 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:10:28 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: Pedro, Password: temporal.contraseña 
+12:11:02 AM: INFO [MenuAppUsuario.py:44] Usuarios actualizados: 1 
+12:11:04 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:11:04 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345678 
+12:11:04 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:11:04 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: Pedro, Password: temporal.contraseña 
+12:11:32 AM: INFO [MenuAppUsuario.py:35] Usuarios insertados: 1 
+12:11:33 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:11:33 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345678 
+12:11:33 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:11:33 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: Pedro, Password: temporal.contraseña 
+12:11:33 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 9, Username: aeliminar, Password: aeliminar 
+12:11:45 AM: INFO [MenuAppUsuario.py:50] Usuarios eliminados: 1 
+12:11:46 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:11:46 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345678 
+12:11:46 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:11:46 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: Pedro, Password: temporal.contraseña 
+12:11:49 AM: INFO [MenuAppUsuario.py:53] Fin del programa... 
+12:18:13 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:18:13 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345678 
+12:18:13 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:18:13 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: Pedro, Password: temporal.contraseña 
+12:18:47 AM: INFO [MenuAppUsuario.py:35] Usuarios insertados: 1 
+12:18:51 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:18:51 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345678 
+12:18:51 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:18:51 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: Pedro, Password: temporal.contraseña 
+12:18:51 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 10, Username: Jennifer mi amor, Password: 12345 
+12:19:18 AM: INFO [MenuAppUsuario.py:44] Usuarios actualizados: 1 
+12:19:19 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:19:19 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345678 
+12:19:19 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:19:19 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: Pedro, Password: temporal.contraseña 
+12:19:19 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 10, Username: Jennifer mi amor, Password: prueba 
+12:19:51 AM: ERROR [CursorDelPool.py:20] Ocurrio una excepción, se hace rollback: not all arguments converted during string formatting <class 'TypeError'> <traceback object at 0x00000238955AD280> 
+12:20:08 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:20:08 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345678 
+12:20:08 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:20:08 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: Pedro, Password: temporal.contraseña 
+12:20:08 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 10, Username: Jennifer mi amor, Password: prueba 
+12:20:12 AM: ERROR [CursorDelPool.py:20] Ocurrio una excepción, se hace rollback: not all arguments converted during string formatting <class 'TypeError'> <traceback object at 0x000002C73582AF80> 
+12:20:35 AM: INFO [MenuAppUsuario.py:21] Invalid 
+12:20:44 AM: ERROR [CursorDelPool.py:20] Ocurrio una excepción, se hace rollback: not all arguments converted during string formatting <class 'TypeError'> <traceback object at 0x000001A591B8D680> 
+12:21:26 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:21:26 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345678 
+12:21:26 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:21:26 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: Pedro, Password: temporal.contraseña 
+12:21:26 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 10, Username: Jennifer mi amor, Password: prueba 
+12:21:31 AM: INFO [MenuAppUsuario.py:21] Invalid 
+12:21:33 AM: INFO [MenuAppUsuario.py:21] Invalid 
+12:21:39 AM: ERROR [CursorDelPool.py:20] Ocurrio una excepción, se hace rollback: not all arguments converted during string formatting <class 'TypeError'> <traceback object at 0x00000258BD79DB00> 
+12:22:56 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:22:58 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345678 
+12:22:59 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:23:03 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: Pedro, Password: temporal.contraseña 
+12:23:05 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 10, Username: Jennifer mi amor, Password: prueba 
+12:24:54 AM: ERROR [CursorDelPool.py:20] Ocurrio una excepción, se hace rollback: not all arguments converted during string formatting <class 'TypeError'> <traceback object at 0x000002532D91D640> 
+12:25:43 AM: ERROR [CursorDelPool.py:20] Ocurrio una excepción, se hace rollback: 'int' object does not support indexing <class 'TypeError'> <traceback object at 0x000001D3918A6780> 
+12:26:28 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:26:28 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345678 
+12:26:28 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:26:28 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: Pedro, Password: temporal.contraseña 
+12:26:28 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 10, Username: Jennifer mi amor, Password: prueba 
+12:26:32 AM: ERROR [CursorDelPool.py:20] Ocurrio una excepción, se hace rollback: not all arguments converted during string formatting <class 'TypeError'> <traceback object at 0x0000024C6EA2D640> 
+12:29:31 AM: ERROR [CursorDelPool.py:20] Ocurrio una excepción, se hace rollback: 'int' object does not support indexing <class 'TypeError'> <traceback object at 0x0000022A4A2BB940> 
+12:33:33 AM: INFO [MenuAppUsuario.py:21] Invalid 
+12:33:45 AM: INFO [MenuAppUsuario.py:50] Usuarios eliminados: 1 
+12:34:43 AM: INFO [MenuAppUsuario.py:21] Invalid 
+12:35:50 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:35:50 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345678 
+12:35:50 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:35:50 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: Pedro, Password: temporal.contraseña 
+12:36:30 AM: INFO [MenuAppUsuario.py:35] Usuarios insertados: 1 
+12:36:31 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:36:31 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345678 
+12:36:31 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:36:31 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: Pedro, Password: temporal.contraseña 
+12:36:31 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 11, Username: Pepito, Password: temporal 
+12:37:17 AM: INFO [MenuAppUsuario.py:44] Usuarios actualizados: 1 
+12:37:19 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:37:19 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345678 
+12:37:19 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:37:19 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: Pedro, Password: temporal.contraseña 
+12:37:19 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 11, Username: Juanito, Password: Juanita 
+12:37:43 AM: INFO [MenuAppUsuario.py:50] Usuarios eliminados: 1 
+12:37:49 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:37:49 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345678 
+12:37:49 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:37:49 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: Pedro, Password: temporal.contraseña 
+12:39:56 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 3, Username: Jennifer_mi_amor, Password: angelito el mas bonito 
+12:39:56 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 4, Username: Angelito, Password: 12345678 
+12:39:56 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 5, Username: genesis, Password: prueba 
+12:39:56 AM: INFO [MenuAppUsuario.py:27] Id Usuario: 8, Username: Pedro, Password: temporal.contraseña 
