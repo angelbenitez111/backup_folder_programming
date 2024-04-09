@@ -2,9 +2,8 @@ import logging as log
 
 # DEBUG, INFO --> WARNING, ERROR CRITICAL
 # https://docs.python.org/3/howto/logging.html
-
-log.basicConfig(level=log.DEBUG,
-                format='%(asctime)s: %(levelname)s [%(filename)s:%(lineno)s] %(message)s',
+log.basicConfig(level=log.INFO,
+                format='%(asctime)s: %(levelname)s [%(filename)s:%(lineno)s] %(message)s ',
                 datefmt='%I:%M:%S %p',
                 # date format | I = hora | M= minutos | %S segundos | %p PM o AM
                 handlers=[
@@ -15,6 +14,7 @@ log.basicConfig(level=log.DEBUG,
                     # Agregamos informacion al stream handler (la consola)
                 ])
 
+<<<<<<< HEAD
 log.basicConfig(level=log.INFO,
                 format='%(asctime)s: %(levelname)s [%(filename)s:%(lineno)s]',
                 datefmt='%I:%M:%S %p',
@@ -26,6 +26,8 @@ log.basicConfig(level=log.INFO,
                     log.StreamHandler()
                     # Agregamos informacion al stream handler (la consola)
                 ])
+=======
+>>>>>>> 9e5e5bf217facc97ba41904bc40aa07a0b82af10
 """
 log.basicConfig(level=log.DEBUG,
                 format='%(asctime)s: %(levelname)s [%(filename)s:%(lineno)s] %(message)s',
@@ -44,7 +46,11 @@ log.basicConfig(level=log.DEBUG,
 
 
 if __name__ == '__main__':
+<<<<<<< HEAD
     log.info('Prueba de mensaje')
+=======
+
+>>>>>>> 9e5e5bf217facc97ba41904bc40aa07a0b82af10
     log.debug('Mensaje a nivel debug')
     log.info('Mensaje a nivel de info')
     log.warning('Mensaje a nivel de warning')
