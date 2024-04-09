@@ -51,12 +51,12 @@ class UsuarioDao:
             return cursor.rowcount
 
 if __name__ == "__main__":
-#    usuario1 = Usuario(id_usuario=None, username= 'Jennifer_mi_amor', password= 'Claudio')
-#    usuarios_insertados = UsuarioDao.insertar(usuario1)
-#    log.debug(f'usuarios insertados: {usuarios_insertados}')
+    usuario1 = Usuario(id_usuario=None, username= 'Jennifer_mi_amor', password= 'Claudio')
+    usuarios_insertados = UsuarioDao.insertar(usuario1)
+    log.debug(f'usuarios insertados: {usuarios_insertados}')
 
-    usuario2 = Usuario(id_usuario=3, username='Jennifer_mi_amor', password='angelito el mas bonito')
-    usuario_actualizado = UsuarioDao.actualizar(usuario2)
+#    usuario2 = Usuario(id_usuario=3, username='Jennifer_mi_amor', password='angelito el mas bonito')
+#    usuario_actualizado = UsuarioDao.actualizar(usuario2)
 
 
 

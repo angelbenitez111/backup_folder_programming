@@ -206,3 +206,10 @@
 09:18:53 PM: DEBUG [CursorDelPool.py:17] se ejecuta método __exit__
 09:18:53 PM: DEBUG [CursorDelPool.py:24] commit de la transaccion
 09:18:53 PM: DEBUG [Conexion.py:44] Regresamos la conexion al pool: <connection object at 0x000001FDEFE09AD0; dsn: 'user=postgres password=xxx dbname=test_db host=127.0.0.1 port=5432', closed: 0>
+03:58:57 PM: INFO [logger_base.py:47] Prueba de mensaje
+03:59:36 PM: INFO [logger_base.py:47] Prueba de mensaje
+03:59:36 PM: DEBUG [logger_base.py:48] Mensaje a nivel debug
+03:59:36 PM: INFO [logger_base.py:49] Mensaje a nivel de info
+03:59:36 PM: WARNING [logger_base.py:50] Mensaje a nivel de warning
+03:59:36 PM: ERROR [logger_base.py:51] Mensaje a nivel de error
+03:59:36 PM: CRITICAL [logger_base.py:52] Mensaje a nivel critico
