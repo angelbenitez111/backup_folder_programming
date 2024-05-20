@@ -89,7 +89,39 @@ print(new_df.to_string())
 # Load a comma separated file (CSV file) into a DataFrame:
 
 import pandas as pd
+import re
 
-df = pd.read_csv('temp.CSV')
+"""
+def extraer_email(texto):
+    # Patrón para buscar direcciones de correo electrónico
+    patron_email = r'\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Z|a-z]{2,7}\b'
+    # Buscar la dirección de correo en el texto
+    match = re.search(patron_email, texto)
+    # Si se encuentra, devolver la dirección, si no, devolver None
+    if match:
+        return match.group(0)
+    elif texto != "nan" and not(re.search(r"^aesaseguros\.com\.py,", texto)):
+        return texto + "@aesaseguros.com.py"
+    else:
+        return None
 
-print(df)
+    # return match.group(0) if match else texto
+"""
+
+# Leemos el archivo CSV
+df = pd.read_csv('usuarios.csv', delimiter=';', skipinitialspace=True)
+
+print(df.head())
+
+num_filas = df.shape[0]
+num_columnas = df.shape[1]
+
+
+for i, row in df.iterrows():
+    for j, cell in enumerate(row):
+        # Asegurarse de que el valor de la celda es una cadena
+        cell = str(cell)
+        # Extraer y imprimir la dirección de correo electrónico
+        email = extraer_email(cell)
+        if email:
+            print(email)
