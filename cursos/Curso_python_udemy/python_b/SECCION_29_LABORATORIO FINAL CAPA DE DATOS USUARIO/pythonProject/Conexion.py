@@ -1,7 +1,7 @@
-# pip install psycopg2
 from psycopg2 import pool
 from logger_base import log
 import sys
+
 
 class Conexion:
     _DATABASE = 'test_db'
@@ -12,7 +12,6 @@ class Conexion:
     _MIN_CON = 1
     _MAX_CON = 5
     _pool = None
-
 
     @classmethod
     def obtenerPool(cls):
@@ -34,9 +33,11 @@ class Conexion:
 
     @classmethod
     def obtenerConexion(cls):
+        # Obtenemos un conexion
         conexion = cls.obtenerPool().getconn()
-        log.debug(f'Conexión obtenida del pool: {conexion}')
+        log.debug(f'Conexion obtenida del pull: {conexion}')
         return conexion
+
     @classmethod
     def liberarConexion(cls, conexion):
         cls.obtenerPool().putconn(conexion)
