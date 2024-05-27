@@ -81,5 +81,5 @@ for i, row in enumerate(df.iterrows()):
         pass
 print(df2)
 # df2.to_csv('contactos.csv', index=False)
-df2.to_csv('contactos.csv', index=False, encoding='utf-8')
+df2.to_csv('contactos.csv', index=False, encoding='utf-8-sig')
 # para actualizar
