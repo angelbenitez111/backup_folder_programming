@@ -1,3 +1,23 @@
+select a.EMITIDO, a.SECCION, a.POLIZA, a.ENDOSO, a.ARTICULO,
+       case a.CODIGO_COBERTURA
+         when 1 then 'MUERTE'
+         when 2 then 'INCAPACIDAD PERMANENTE'
+         when 3 then 'ASISTENCIA MEDICA'
+         when 4 then 'RENTA DIARIA'
+         else null
+       end as COBERTURA,
+       a.SUMA_ASEGURADA_MOVIMIENTO,
+       a.PRIMA_MOVIMIENTO
+from FPOLCOB a
+where a.emitido = 'N' and
+      a.seccion = '0401' and
+      a.poliza = 2904 and
+      a.endoso in (1203,1204,1205,1208, 1209, 1210);
+
+
+
+
+
 SELECT
       I.CODIGO,
       I.NOMBRE,
@@ -41,7 +61,9 @@ INNER JOIN
       F522 F ON E.MARCA_PRINCIPAL = F.MARCA
 INNER JOIN 
       F523 G ON D.TIPO_VEHICULO = G.CODIGO
-INNER JOIN 
+
+
+LEFT JOIN 
       FSERVICIOS_REALIZADOS H ON A.EMITIDO = H.EMITIDO AND
                       A.SECCION = H.SECCION AND
                       A.POLIZA = H.POLIZA AND
@@ -66,21 +88,7 @@ ORDER BY A.EMITIDO,
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+      /*------------------------------------------------------*/
 
 
 
@@ -143,9 +151,42 @@ where
 
 
 
+/* el select del tema de PLD AERONAVE*/
+/* el select del tema de PLD AERONAVE*/
 
+select a.emitido, a.seccion, a.poliza, a.endoso, D.NOMBRE as "cobertura/tipo de poliza",
+       /*reginen??*/
+       f.matricula_aeronave,
+       g.nombre as "ASEGURADO/TITULAR",
+       COALESCE(G.ruc,G.cedula) AS "RUC/CEDULA",
 
+       C.prima,
+       C.suma_asegurada ,
+       B.suma_asegurada as "VALOR CASCO"
 
+from FPOL A
+inner join FPOLARTICULOS B on A.EMITIDO = B.EMITIDO and
+      A.SECCION = B.SECCION and
+      A.POLIZA = B.POLIZA and
+      A.ENDOSO = B.ENDOSO
+inner join FPOLCOB C on B.EMITIDO = C.EMITIDO and
+      B.SECCION = C.SECCION and
+      B.POLIZA = C.POLIZA and
+      B.ENDOSO = C.ENDOSO and
+      B.ARTICULO = C.ARTICULO
+inner join FCOBERTURA D on C.TIPO_TABLA_COBERTURA = D.TIPO_TABLA_COBERTURA and
+      C.CODIGO_COBERTURA = D.CODIGO
+inner join FPOLartvar f on B.EMITIDO = f.EMITIDO and
+      B.SECCION = f.SECCION and
+      B.POLIZA = f.POLIZA and
+      B.ENDOSO = f.ENDOSO and
+      B.ARTICULO = f.ARTICULO
+/*inner join f521 e on e.codigo = f.codigo  */
+inner join fcodgeneral g on a.asegurado = g.codigo
+where A.SECCION_PRINCIPAL = '1300' and
+      A.TIPO in (1, 2, 7) and
+      A.HASTA >= current_date and
+      A.ANULADA <> 'S'   
 
 
 

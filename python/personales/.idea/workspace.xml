@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="7cb62bec-7a06-4538-a47e-858e45b0d369" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/crear lista de contactos outlook/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/crear lista de contactos outlook/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/crear lista de contactos outlook/notas_pandas.py" beforeDir="false" afterPath="$PROJECT_DIR$/crear lista de contactos outlook/notas_pandas.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/crear lista de contactos outlook/contacto 24_05_27 09_02.csv" beforeDir="false" afterPath="$PROJECT_DIR$/crear lista de contactos outlook/contacto 24_05_27 09_02.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../sql/prueba.sql" beforeDir="false" afterPath="$PROJECT_DIR$/../../sql/prueba.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,22 +17,22 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2h3CbVpeqvFPgYU1L2qNS8Dpg66" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/abenitez/Desktop/backup_folder_programming/python/personales"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/abenitez/Desktop/backup_folder_programming/python/personales&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\abenitez\Desktop\backup_folder_programming\python\personales\crear lista de contactos outlook\exportar_lista" />
