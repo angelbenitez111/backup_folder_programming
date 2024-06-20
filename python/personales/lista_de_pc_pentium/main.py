@@ -13,6 +13,9 @@ file_path = (r".\Informe sobre el registro de hardware.html")
 with open(file_path, 'r', encoding='utf-8') as file:
     html_content = file.read()
 
+
+
+
 # Analizar el contenido del HTML
 soup = BeautifulSoup(html_content, 'html.parser')
 
