@@ -88,4 +88,9 @@ timestamp = time.strftime("%y_%m_%d %H_%M", now)
 filename = f"contacto {timestamp}.csv"
 
 # df2.to_csv('contactos.csv', index=False)
+<<<<<<< HEAD
+#df2.to_csv('contactos.csv', index=False, encoding='utf-8-sig')
+# para actualizar
+=======
 df2.to_csv(filename, index=False, encoding='utf-8-sig')
+>>>>>>> 42e631c82f3e6439f21504dbe74117995597f1a8
