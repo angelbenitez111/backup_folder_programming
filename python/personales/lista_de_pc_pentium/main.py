@@ -1,3 +1,4 @@
+from openpyxl.workbook import Workbook
 import time
 from bs4 import BeautifulSoup
 import pandas as pd
@@ -8,8 +9,7 @@ pd.set_option('display.max_colwidth', None)
 pd.set_option('display.width', 1000)
 
 # Leer el contenido del archivo HTML
-file_path = (r'C:\Users\abenitez\Desktop\backup_folder_programming\python\personales\lista_de_pc_pentium\Informe sobre '
-             r'el registro de hardware.html')
+file_path = (r".\Informe sobre el registro de hardware.html")
 with open(file_path, 'r', encoding='utf-8') as file:
     html_content = file.read()
 
@@ -21,22 +21,21 @@ table = soup.find('table', class_='DATA_TABLE DATA_TABLE_WO_TOTAL')
 
 # Extraer los datos de la tabla
 rows = table.find_all('tr')
+# lista de listas
 data = []
 
 for row in rows:
     cols = row.find_all(['td', 'th'])
-    # col.grt_tex(strip=True)  extrae todo el texto dentro deuna etiqueta
+    # col.grt_tex(strip=True)  extrae todo el texto dentro de una etiqueta
 
     cols = [col.get_text(strip=True) for col in cols]
     data.append(cols)
     # strip=True: Este argumento adicional elimina cualquier espacio en blanco inicial y final alrededor del texto extraído. Es equivalente a llamar a strip() en el texto resultante.
 
+encabezados = data[0]
+del data[0]
 
-for dat in data:
-    print(dat)
-
-# Crear un DataFrame de pandas
-df = pd.DataFrame.from_dict({i: dat for i, dat in enumerate(data)}, orient='index').transpose()
+df = pd.DataFrame(data, columns=encabezados)
 
 print(df)
 
@@ -44,10 +43,8 @@ print(df)
 # Exportar el DataFrame a un archivo Excel
 now = time.localtime()
 timestamp = time.strftime("%y_%m_%d %H_%M", now)
-filename = f"INVENTARIO PC {timestamp}.csv"
+filename = f"INVENTARIO PC {timestamp}.xlsx"
 
 
 # df2.to_csv('contactos.csv', index=False)
-# df.to_csv(filename, index=False, encoding='utf-8-sig')
-
-
+df.to_excel(filename, index=False)
