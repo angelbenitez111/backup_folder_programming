@@ -11,7 +11,13 @@ myvar = pd.DataFrame(mydataset)
 
 print(myvar)
 """
+"""
+num_filas = df.shape[0]
+num_columnas = df.shape[1]
 
+print(num_columnas)
+print(num_filas)
+"""
 """
 # Create your own labels:
 import pandas as pd
